@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.heading{
+    font-size:2.5rem;
+    padding: 1rem 1rem;
+    margin:auto;
+    background: linear-gradient(to right,crimson, #f4D03F);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.head2{
+    margin-top: 0.5rem;
+    font-size:1.5rem;
+    text-align: center;
+    background: linear-gradient(to right, purple, #0a5708f1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body{
+    display:grid;
+    justify-content:center;
+    height:75vh;
+    align-items:center;
+    background-color: black;
+}
+
+#quote{
+    background: linear-gradient(to right, #16A085, #f4D03F);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#container{
+    width:600px;
+    background: #212121;
+    box-shadow: 0 0 30px #2121216b;
+    color:azure;
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    align-items:center;
+    padding: 2.5rem 3.5rem;
+    font-size:1.5rem;
+}
+
+#container .author{
+    margin-top: 1rem;
+    background: linear-gradient(to right, rgba(75, 189, 218, 0.308), rgb(126, 91, 52));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+}
+
+.btn{
+    width:150px;
+    height:40px;
+    position: absolute;
+    bottom:-8%;
+    background: linear-gradient(to right, #3fd0f498 ,#a0168991);
+    color: white;
+    border:none;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
